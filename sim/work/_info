@@ -1,0 +1,156 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Project/verilog_pro/project_module/32_RISC-V/sim
+vsdram_aref
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 5n>fXL[EJO5Z`9Q0TMnlg0
+I_CUJnz@MQRn;W8o8Af<iB2
+Z2 dD:/Project/verilog_pro/project_module/SDRAM_controller_git/sim
+w1586501055
+8D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_aref.v
+FD:/Project/verilog_pro/project_module/sdram_controller/src/sdram_aref.v
+L0 1
+Z3 OL;L;10.4;61
+!s108 1586780890.060000
+!s107 D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_aref.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_aref.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vsdram_init
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 gUIdlzk:oLIGRCIWZhzR71
+Ih>OPInJ?MFGTl^3;NOLRI0
+R2
+w1585721233
+8D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_init.v
+FD:/Project/verilog_pro/project_module/sdram_controller/src/sdram_init.v
+L0 28
+R3
+!s108 1586780890.172000
+!s107 D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_init.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_init.v|
+!i113 0
+R4
+vsdram_model_plus
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Q=9=k^KQZzYX]MAPNSL3D2
+I48@=cibV6l;e?n3WW[kn^0
+R2
+w1585930907
+8D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_model_plus.v
+FD:/Project/verilog_pro/project_module/sdram_controller/src/sdram_model_plus.v
+L0 56
+R3
+!s108 1586780890.237000
+!s107 D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_model_plus.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_model_plus.v|
+!i113 0
+R4
+vsdram_read
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 fKShi9WmbcDfII:fhNnik0
+IgjnjFzJD^iQEJL4:nkO6_3
+R2
+w1586501050
+8D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_read.v
+FD:/Project/verilog_pro/project_module/sdram_controller/src/sdram_read.v
+L0 1
+R3
+!s108 1586780890.312000
+!s107 D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_read.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_read.v|
+!i113 0
+R4
+vsdram_top
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Kb1Nd8`S9JHZbD5d1<L7>3
+I]<j;THI;g3:g<S9gVQI9W1
+R2
+w1586780808
+8D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_top.v
+FD:/Project/verilog_pro/project_module/sdram_controller/src/sdram_top.v
+L0 1
+R3
+!s108 1586780890.379000
+!s107 D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_top.v|
+!i113 0
+R4
+vsdram_top_tb
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 >_PP>6ORfYNX6oS]g@HW21
+I<n?2MRg2Wc>YD]z3J_NEG1
+R2
+w1586780807
+8D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_top_tb.v
+FD:/Project/verilog_pro/project_module/sdram_controller/src/sdram_top_tb.v
+L0 1
+R3
+!s108 1586780890.446000
+!s107 D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_top_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_top_tb.v|
+!i113 0
+R4
+vsdram_write
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 H`=g_L>V`nZ?=`0A2Del41
+I;WCIV;e2JgDDXLo^>BVGe0
+R2
+w1586501052
+8D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_write.v
+FD:/Project/verilog_pro/project_module/sdram_controller/src/sdram_write.v
+L0 1
+R3
+!s108 1586780889.994000
+!s107 D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_write.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_write.v|
+!i113 0
+R4
+Tz
+!s110 1586780637
+VCbn8JEhh@k<DiGSmO0_:>2
+Z5 04 12 4 work sdram_top_tb fast 0
+nz
+Z6 OL;O;10.4;61
+R0
+Tzaa
+!s110 1586780974
+VT5:l=6dAzCkk5A`a42ING1
+R5
+nzaa
+R6

@@ -1,0 +1,11 @@
+ 
+****************************************
+Report : clock_skew
+Design : sdram_top
+Version: K-2015.06
+Date   : Thu May 21 00:03:42 2020
+****************************************
+
+                 Rise      Fall  Min Rise  Min fall        Uncertainty
+Object          Delay     Delay     Delay     Delay     Plus      Minus
+--------------------------------------------------------------------------------

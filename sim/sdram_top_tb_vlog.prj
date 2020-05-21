@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../verilog_pro/project_module/sdram_controller/src/sdram_aref.v" \
+"../../../../../../../verilog_pro/project_module/sdram_controller/src/sdram_init.v" \
+"../../../../../../../verilog_pro/project_module/sdram_controller/src/sdram_model_plus.v" \
+"../../../../../../../verilog_pro/project_module/sdram_controller/src/sdram_read.v" \
+"../../../../../../../verilog_pro/project_module/sdram_controller/src/sdram_top.v" \
+"../../../../../../../verilog_pro/project_module/sdram_controller/src/sdram_write.v" \
+"../../../../../../../verilog_pro/project_module/sdram_controller/src/sdram_top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_aref.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sdram_aref
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sdram_init
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_model_plus.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sdram_model_plus
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_read.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sdram_read
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sdram_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_write.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sdram_write
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sdram_top_tb

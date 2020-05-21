@@ -1,0 +1,23 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto cf69d5835ebd4b2e85daa7592355ad80 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sdram_top_tb_behav xil_defaultlib.sdram_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'Dqm' [D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_top_tb.v:87]
+WARNING: [VRFC 10-3283] element index 23 into 'Dq_dqm' is out of bounds [D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_model_plus.v:867]
+WARNING: [VRFC 10-3283] element index 31 into 'Dq_dqm' is out of bounds [D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_model_plus.v:868]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_init.v" Line 28. Module sdram_init doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Project/verilog_pro/project_module/sdram_controller/src/sdram_aref.v" Line 1. Module sdram_aref doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.sdram_init
+Compiling module xil_defaultlib.sdram_aref
+Compiling module xil_defaultlib.sdram_write
+Compiling module xil_defaultlib.sdram_read
+Compiling module xil_defaultlib.sdram_top
+Compiling module xil_defaultlib.sdram_model_plus(addr_bits=12,da...
+Compiling module xil_defaultlib.sdram_top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sdram_top_tb_behav

@@ -1,0 +1,160 @@
+****************************************
+Report : transitive_fanout
+        -clock_tree
+Design : sdram_top
+Version: K-2015.06
+Date   : Thu May 21 00:04:12 2020
+****************************************
+
+The fanout network of source S_CLK is as follows:
+
+Driver Pin       Load Pin          Type        Sense
+------------------------------------------------------------
+S_CLK            sdram_read_inst/state_reg[0]/CK (net arc) same
+S_CLK            sdram_read_inst/rd_cmd_reg[0]/CK (net arc) same
+S_CLK            sdram_read_inst/rd_cmd_reg[1]/CK (net arc) same
+S_CLK            sdram_read_inst/rd_cmd_reg[2]/CK (net arc) same
+S_CLK            sdram_read_inst/burst_cnt_t_reg[1]/CK (net arc) same
+S_CLK            sdram_read_inst/state_reg[1]/CK (net arc) same
+S_CLK            sdram_read_inst/break_cnt_reg[2]/CK (net arc) same
+S_CLK            sdram_read_inst/row_addr_reg[0]/CK (net arc) same
+S_CLK            sdram_read_inst/col_cnt_reg[0]/CK (net arc) same
+S_CLK            sdram_read_inst/col_cnt_reg[5]/CK (net arc) same
+S_CLK            sdram_read_inst/break_cnt_reg[3]/CK (net arc) same
+S_CLK            sdram_read_inst/sd_row_end_reg/CK (net arc) same
+S_CLK            sdram_read_inst/col_cnt_reg[1]/CK (net arc) same
+S_CLK            sdram_read_inst/break_cnt_reg[0]/CK (net arc) same
+S_CLK            sdram_read_inst/row_addr_reg[7]/CK (net arc) same
+S_CLK            sdram_read_inst/row_addr_reg[8]/CK (net arc) same
+S_CLK            sdram_read_inst/row_addr_reg[9]/CK (net arc) same
+S_CLK            sdram_read_inst/row_addr_reg[6]/CK (net arc) same
+S_CLK            sdram_read_inst/act_cnt_reg[1]/CK (net arc) same
+S_CLK            sdram_read_inst/state_reg[4]/CK (net arc) same
+S_CLK            sdram_read_inst/state_reg[2]/CK (net arc) same
+S_CLK            sdram_read_inst/act_cnt_reg[0]/CK (net arc) same
+S_CLK            sdram_read_inst/row_addr_reg[10]/CK (net arc) same
+S_CLK            sdram_read_inst/row_addr_reg[5]/CK (net arc) same
+S_CLK            sdram_read_inst/row_addr_reg[4]/CK (net arc) same
+S_CLK            sdram_read_inst/row_addr_reg[3]/CK (net arc) same
+S_CLK            sdram_read_inst/row_addr_reg[2]/CK (net arc) same
+S_CLK            sdram_read_inst/row_addr_reg[1]/CK (net arc) same
+S_CLK            sdram_read_inst/col_cnt_reg[6]/CK (net arc) same
+S_CLK            sdram_read_inst/break_cnt_reg[1]/CK (net arc) same
+S_CLK            sdram_read_inst/flag_rd_reg/CK (net arc) same
+S_CLK            sdram_read_inst/state_reg[3]/CK (net arc) same
+S_CLK            sdram_read_inst/burst_cnt_t_reg[0]/CK (net arc) same
+S_CLK            sdram_read_inst/rd_data_end_reg/CK (net arc) same
+S_CLK            sdram_read_inst/col_cnt_reg[4]/CK (net arc) same
+S_CLK            sdram_read_inst/col_cnt_reg[3]/CK (net arc) same
+S_CLK            sdram_read_inst/col_cnt_reg[2]/CK (net arc) same
+S_CLK            sdram_read_inst/act_cnt_reg[3]/CK (net arc) same
+S_CLK            sdram_read_inst/burst_cnt_reg[1]/CK (net arc) same
+S_CLK            sdram_read_inst/act_cnt_reg[2]/CK (net arc) same
+S_CLK            sdram_read_inst/row_addr_reg[11]/CK (net arc) same
+S_CLK            sdram_read_inst/burst_cnt_reg[0]/CK (net arc) same
+S_CLK            sdram_read_inst/flag_rd_end_reg/CK (net arc) same
+S_CLK            sdram_read_inst/flag_pre_end_reg/CK (net arc) same
+S_CLK            sdram_write_inst/wr_cmd_reg[0]/CK (net arc) same
+S_CLK            sdram_write_inst/wr_cmd_reg[1]/CK (net arc) same
+S_CLK            sdram_write_inst/wr_cmd_reg[2]/CK (net arc) same
+S_CLK            sdram_write_inst/break_cnt_reg[2]/CK (net arc) same
+S_CLK            sdram_write_inst/col_cnt_reg[0]/CK (net arc) same
+S_CLK            sdram_write_inst/col_cnt_reg[4]/CK (net arc) same
+S_CLK            sdram_write_inst/col_cnt_reg[5]/CK (net arc) same
+S_CLK            sdram_write_inst/break_cnt_reg[3]/CK (net arc) same
+S_CLK            sdram_write_inst/state_reg[4]/CK (net arc) same
+S_CLK            sdram_write_inst/sd_row_end_reg/CK (net arc) same
+S_CLK            sdram_write_inst/col_cnt_reg[1]/CK (net arc) same
+S_CLK            sdram_write_inst/burst_cnt_t_reg[1]/CK (net arc) same
+S_CLK            sdram_write_inst/break_cnt_reg[0]/CK (net arc) same
+S_CLK            sdram_write_inst/flag_wr_reg/CK (net arc) same
+S_CLK            sdram_write_inst/row_addr_reg[5]/CK (net arc) same
+S_CLK            sdram_write_inst/row_addr_reg[3]/CK (net arc) same
+S_CLK            sdram_write_inst/row_addr_reg[1]/CK (net arc) same
+S_CLK            sdram_write_inst/row_addr_reg[2]/CK (net arc) same
+S_CLK            sdram_write_inst/row_addr_reg[10]/CK (net arc) same
+S_CLK            sdram_write_inst/row_addr_reg[4]/CK (net arc) same
+S_CLK            sdram_write_inst/act_cnt_reg[1]/CK (net arc) same
+S_CLK            sdram_write_inst/row_addr_reg[0]/CK (net arc) same
+S_CLK            sdram_write_inst/act_cnt_reg[2]/CK (net arc) same
+S_CLK            sdram_write_inst/state_reg[2]/CK (net arc) same
+S_CLK            sdram_write_inst/act_cnt_reg[3]/CK (net arc) same
+S_CLK            sdram_write_inst/burst_cnt_reg[1]/CK (net arc) same
+S_CLK            sdram_write_inst/act_cnt_reg[0]/CK (net arc) same
+S_CLK            sdram_write_inst/row_addr_reg[9]/CK (net arc) same
+S_CLK            sdram_write_inst/row_addr_reg[8]/CK (net arc) same
+S_CLK            sdram_write_inst/row_addr_reg[7]/CK (net arc) same
+S_CLK            sdram_write_inst/row_addr_reg[6]/CK (net arc) same
+S_CLK            sdram_write_inst/col_cnt_reg[6]/CK (net arc) same
+S_CLK            sdram_write_inst/break_cnt_reg[1]/CK (net arc) same
+S_CLK            sdram_write_inst/row_addr_reg[11]/CK (net arc) same
+S_CLK            sdram_write_inst/burst_cnt_t_reg[0]/CK (net arc) same
+S_CLK            sdram_write_inst/burst_cnt_reg[0]/CK (net arc) same
+S_CLK            sdram_write_inst/state_reg[3]/CK (net arc) same
+S_CLK            sdram_write_inst/state_reg[1]/CK (net arc) same
+S_CLK            sdram_write_inst/col_cnt_reg[3]/CK (net arc) same
+S_CLK            sdram_write_inst/col_cnt_reg[2]/CK (net arc) same
+S_CLK            sdram_write_inst/state_reg[0]/CK (net arc) same
+S_CLK            sdram_write_inst/wr_data_end_reg/CK (net arc) same
+S_CLK            sdram_write_inst/flag_wr_end_reg/CK (net arc) same
+S_CLK            sdram_aref_inst/aref_cmd_reg[0]/CK (net arc) same
+S_CLK            sdram_aref_inst/aref_cmd_reg[1]/CK (net arc) same
+S_CLK            sdram_aref_inst/aref_cmd_reg[2]/CK (net arc) same
+S_CLK            sdram_aref_inst/cmd_cnt_reg[0]/CK (net arc) same
+S_CLK            sdram_aref_inst/ref_req_reg/CK (net arc) same
+S_CLK            sdram_aref_inst/cmd_cnt_reg[2]/CK (net arc) same
+S_CLK            sdram_aref_inst/ref_cnt_reg[0]/CK (net arc) same
+S_CLK            sdram_aref_inst/cmd_cnt_reg[3]/CK (net arc) same
+S_CLK            sdram_aref_inst/ref_cnt_reg[2]/CK (net arc) same
+S_CLK            sdram_aref_inst/cmd_cnt_reg[1]/CK (net arc) same
+S_CLK            sdram_aref_inst/ref_cnt_reg[1]/CK (net arc) same
+S_CLK            sdram_aref_inst/ref_cnt_reg[8]/CK (net arc) same
+S_CLK            sdram_aref_inst/ref_cnt_reg[4]/CK (net arc) same
+S_CLK            sdram_aref_inst/ref_cnt_reg[7]/CK (net arc) same
+S_CLK            sdram_aref_inst/ref_cnt_reg[5]/CK (net arc) same
+S_CLK            sdram_aref_inst/ref_cnt_reg[3]/CK (net arc) same
+S_CLK            sdram_aref_inst/ref_cnt_reg[6]/CK (net arc) same
+S_CLK            sdram_aref_inst/flag_ref_reg/CK (net arc) same
+S_CLK            sdram_aref_inst/ref_cnt_reg[9]/CK (net arc) same
+S_CLK            state_reg[0]/CK   (net arc)   same
+S_CLK            U59/A             (net arc)   same
+S_CLK            state_reg[1]/CK   (net arc)   same
+S_CLK            state_reg[2]/CK   (net arc)   same
+S_CLK            state_reg[4]/CK   (net arc)   same
+S_CLK            state_reg[3]/CK   (net arc)   same
+S_CLK            wr_en_reg/CK      (net arc)   same
+S_CLK            rd_en_reg/CK      (net arc)   same
+S_CLK            ref_en_reg/CK     (net arc)   same
+S_CLK            sdram_init_inst/cmd_reg_reg[2]/CK (net arc) same
+S_CLK            sdram_init_inst/cmd_reg_reg[0]/CK (net arc) same
+S_CLK            sdram_init_inst/cmd_reg_reg[1]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_cmd_reg[0]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_cmd_reg[2]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_cmd_reg[1]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_cmd_reg[3]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_200us_reg[0]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_200us_reg[7]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_200us_reg[10]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_200us_reg[8]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_200us_reg[9]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_200us_reg[5]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_200us_reg[6]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_200us_reg[11]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_200us_reg[4]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_200us_reg[12]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_200us_reg[3]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_200us_reg[2]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_200us_reg[1]/CK (net arc) same
+S_CLK            sdram_init_inst/cnt_200us_reg[13]/CK (net arc) same
+
+
+Load Pin         Driver Pin        Type        Sense
+------------------------------------------------------------
+U59/A            U59/Y             INVX2       opposite
+
+
+Driver Pin       Load Pin          Type        Sense
+------------------------------------------------------------
+U59/Y            sdram_clk         (net arc)   opposite
+
+

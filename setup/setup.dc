@@ -1,0 +1,75 @@
+###################################################################
+
+# Created by write_script -format dctcl on Wed May 20 23:58:04 2020
+
+###################################################################
+
+# Set the current_design #
+current_design sdram_top
+
+set_units -time ns -resistance kOhm -capacitance pF -voltage V -current mA
+remove_wire_load_model
+set_local_link_library                                                         \
+{fast.db,fast_leakage.db,fastz.db,slow.db,typical.db,typical_leakage.db,/home/IC/project/32riscv/lib/smic25_tt.db}
+set_max_transition 0.5 [current_design]
+set_max_fanout 4 [current_design]
+set_max_area 0
+set_dont_touch_network [get_ports S_RSTn]
+set_dont_touch_network [get_ports wr_trig]
+set_dont_touch_network [get_ports rd_trig]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_read_inst/rd_addr_reg[0]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_read_inst/rd_addr_reg[1]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_read_inst/rd_addr_reg[2]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_read_inst/rd_addr_reg[3]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_read_inst/rd_addr_reg[4]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_read_inst/rd_addr_reg[5]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_read_inst/rd_addr_reg[6]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_read_inst/rd_addr_reg[7]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_read_inst/rd_addr_reg[8]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_read_inst/rd_addr_reg[9]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_read_inst/rd_addr_reg[10]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_read_inst/rd_addr_reg[11]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_write_inst/wr_addr_reg[0]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_write_inst/wr_addr_reg[1]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_write_inst/wr_addr_reg[2]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_write_inst/wr_addr_reg[3]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_write_inst/wr_addr_reg[4]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_write_inst/wr_addr_reg[5]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_write_inst/wr_addr_reg[6]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_write_inst/wr_addr_reg[7]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_write_inst/wr_addr_reg[8]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_write_inst/wr_addr_reg[9]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_write_inst/wr_addr_reg[10]/QN}]
+set_switching_activity -period 1 -toggle_rate 0 -static_probability 0          \
+[get_pins {sdram_write_inst/wr_addr_reg[11]/QN}]
+create_clock [get_ports S_CLK]  -name sclk  -period 20  -waveform {0 10}
+set_output_delay -clock sclk  8  [get_ports sdram_cke]
+set_output_delay -clock sclk  8  [get_ports sdram_we_n]
+set_output_delay -clock sclk  8  [get_ports sdram_cas_n]
+set_output_delay -clock sclk  8  [get_ports sdram_ras_n]
+set_output_delay -clock sclk  8  [get_ports sdram_cs_n]
+set_output_delay -clock sclk  8  [get_ports sdram_clk]
+1

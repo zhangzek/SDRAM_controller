@@ -1,0 +1,50 @@
+D:/Project/verilog_pro/project_module/SDRAM_controller_git/src/sdram_aref.v {1 {vlog -work work -vopt -stats=none D:/Project/verilog_pro/project_module/SDRAM_controller_git/src/sdram_aref.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_aref
+
+Top level modules:
+	sdram_aref
+
+} {} {}} D:/Project/verilog_pro/project_module/SDRAM_controller_git/src/sdram_write.v {1 {vlog -work work -vopt -stats=none D:/Project/verilog_pro/project_module/SDRAM_controller_git/src/sdram_write.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_write
+
+Top level modules:
+	sdram_write
+
+} {} {}} D:/Project/verilog_pro/project_module/SDRAM_controller_git/src/sdram_top.v {1 {vlog -work work -vopt -stats=none D:/Project/verilog_pro/project_module/SDRAM_controller_git/src/sdram_top.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_top
+
+Top level modules:
+	sdram_top
+
+} {} {}} D:/Project/verilog_pro/project_module/SDRAM_controller_git/src/sdram_top_tb.v {1 {vlog -work work -vopt -stats=none D:/Project/verilog_pro/project_module/SDRAM_controller_git/src/sdram_top_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_top_tb
+
+Top level modules:
+	sdram_top_tb
+
+} {} {}} D:/Project/verilog_pro/project_module/SDRAM_controller_git/src/sdram_read.v {1 {vlog -work work -vopt -stats=none D:/Project/verilog_pro/project_module/SDRAM_controller_git/src/sdram_read.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_read
+
+Top level modules:
+	sdram_read
+
+} {} {}} D:/Project/verilog_pro/project_module/SDRAM_controller_git/src/sdram_model_plus.v {1 {vlog -work work -vopt -stats=none D:/Project/verilog_pro/project_module/SDRAM_controller_git/src/sdram_model_plus.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_model_plus
+
+Top level modules:
+	sdram_model_plus
+
+} {} {}} D:/Project/verilog_pro/project_module/SDRAM_controller_git/src/sdram_init.v {1 {vlog -work work -vopt -stats=none D:/Project/verilog_pro/project_module/SDRAM_controller_git/src/sdram_init.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_init
+
+Top level modules:
+	sdram_init
+
+} {} {}}

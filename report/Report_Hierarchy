@@ -1,0 +1,20 @@
+ 
+****************************************
+Report : hierarchy
+        -noleaf
+Design : sdram_top
+Version: K-2015.06
+Date   : Wed May 20 23:55:34 2020
+****************************************
+
+sdram_top
+    sdram_aref
+        sdram_aref_DW01_inc_0
+    sdram_init
+        sdram_init_DW01_inc_0
+    sdram_read
+        sdram_read_DW01_inc_0
+        sdram_read_DW01_inc_1
+    sdram_write
+        sdram_write_DW01_inc_0
+        sdram_write_DW01_inc_1

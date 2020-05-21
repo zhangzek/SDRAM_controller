@@ -1,0 +1,38 @@
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : sdram_top
+Version: K-2015.06
+Date   : Thu May 21 00:02:07 2020
+****************************************
+
+Operating Conditions: fast   Library: fast
+Wire Load Model Mode: top
+
+  Startpoint: S_CLK (clock source 'sclk')
+  Endpoint: sdram_clk (output port clocked by sclk)
+  Path Group: sclk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock sclk (fall edge)                  10.00      10.00
+  S_CLK (in)                               0.00      10.00 f
+  U59/Y (INVX2)                            0.00      10.00 r
+  sdram_clk (out)                          0.00      10.00 r
+  data arrival time                                  10.00
+
+  clock sclk (rise edge)                  20.00      20.00
+  clock network delay (ideal)              0.00      20.00
+  output external delay                   -8.00      12.00
+  data required time                                 12.00
+  -----------------------------------------------------------
+  data required time                                 12.00
+  data arrival time                                 -10.00
+  -----------------------------------------------------------
+  slack (MET)                                         2.00
+
+
